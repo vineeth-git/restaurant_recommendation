@@ -8,12 +8,6 @@ import (
 	"time"
 )
 
-func testt(aa string) bool {
-
-	fmt.Println("Function called", aa)
-	return false
-}
-
 func input() (models.User, []models.Restaurant) {
 	user := models.User{
 		Cuisines: []models.CuisineTracking{
